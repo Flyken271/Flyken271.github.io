@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'hack';
+    src: url('Hack-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'hackbold';
+    src: url('Hack-Bold.ttf');
+    font-display: swap;
+}
+
+body {
+    background-color: #502121;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+#dahead {
+    text-align: center;
+    width:  100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #242424;
+    
+    min-width: 1100px;
+}
+
+#dahead #title {
+    font-family: hackbold;
+    font-size: 75pt;
+}
+
+#dahead {
+    font-size: 15pt;
+    font-weight: 800;
+    font-family: hack;
+    color: #242424;
+}
+
+#sub {
+    font-size: 25pt;
+    font-weight: 800;
+    font-family: hack;
+    color: #242424;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#github {
+    float: left;
+}
+
+.sectionhead {
+    font-size: 20pt;
+    text-align: center;
+    background-image: url('sectionhead-bg.png');
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    border-bottom: 3px solid #eceaf7;
+    padding-bottom: 5px;
+    color: #363636;
+}
+
+.sectionfoot {
+    background-image: url('sectionfoot-bg.png');
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+
+#top {
+    margin-top: 200px;
+}
+
+#repolinks {
+    background-color: white;
+}
+.repo {
+    padding: 10px;
+}
+.repo a {
+    color: rgb(56, 56, 163);
+    font-weight: bold;
+}
+
+#stuff {
+    width: 1100px;
+    margin: auto;
+    font-family: hack;
+}
+
+.box {
+    width: 500px;
+    padding: 10px;
+}
+
+.lnk img {
+    height: 25px;
+    padding-right: 5px;
+}
+
+#links {
+    float: right;
+}
+
+#linklist {
+    background-color: white;
+    padding-left: 10px;
+}
+
+.lnk {
+    padding: 10px;
+    font-size: 20pt;
+}
+
+@media screen and (max-width: 1100px) {
+    #stuff { width: 500px; }
+    .box {padding-left: 0px; padding-right: 0px;}
+    #github { clear: both; }
+    #dahead { min-width: 500px; }
+    #dahead #title { font-size: 35pt; }
+    #top { margin-top: 100px; }
+}
+
+
+
+.wrapper { 
+    height: 100%;
+    width: 100%;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  background: linear-gradient(45deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 28s ease infinite;
+  -z-animation: rainbow 28s ease infinite;
+  -o-animation: rainbow 28s ease infinite;
+    animation: rainbow 28s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }

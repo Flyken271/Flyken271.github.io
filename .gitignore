@@ -1,0 +1,10 @@
+# Custom config (legacy)
+custom.ini
+
+# Ignore images & thumbnails directories (legacy)
+i/*
+t/*
+
+# Ignore all files in data but keep directory itself
+data/*
+!data/.gitkeep

@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #502121;
+    background-color: #161616;
 }
 
 .skip-link {
@@ -37,9 +37,14 @@ body {
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #242424;
-    
+    color: #c43434;
+    background-color: #313131 !important;
+    box-shadow: 0px 4px 8px #313131;
     min-width: 1100px;
+}
+
+#title #sub #blog {
+    color: #ddb23b !important;
 }
 
 #dahead #title {
@@ -47,23 +52,15 @@ body {
     font-size: 75pt;
 }
 
-#dahead {
+#dahead #sub {
     font-size: 15pt;
-    font-weight: 800;
     font-family: hack;
-    color: #242424;
-}
-
-#sub {
-    font-size: 25pt;
-    font-weight: 800;
-    font-family: hack;
-    color: #242424;
+    color: #c43434;
 }
 
 a {
     text-decoration: none;
-    color: #242424;
+    color: #c43434;
 }
 
 a:hover {
@@ -80,9 +77,9 @@ a:hover {
     background-image: url('sectionhead-bg.png');
     background-repeat: no-repeat;
     padding-top: 10px;
-    border-bottom: 3px solid #eceaf7;
+    border-bottom: 3px solid #333333;
     padding-bottom: 5px;
-    color: #363636;
+    color: #c43434;
 }
 
 .sectionfoot {
@@ -96,13 +93,14 @@ a:hover {
 }
 
 #repolinks {
-    background-color: white;
+    background-color: #333333;
 }
 .repo {
     padding: 10px;
+    color: rgb(161, 161, 161);
 }
 .repo a {
-    color: rgb(56, 56, 163);
+    color: #c43434 !important;
     font-weight: bold;
 }
 
@@ -127,7 +125,7 @@ a:hover {
 }
 
 #linklist {
-    background-color: white;
+    background-color: #333333;
     padding-left: 10px;
 }
 
@@ -144,42 +142,3 @@ a:hover {
     #dahead #title { font-size: 35pt; }
     #top { margin-top: 100px; }
 }
-
-
-
-.wrapper { 
-    height: 100%;
-    width: 100%;
-    left:0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-  background: linear-gradient(45deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 1800% 1800%;
-  
-  -webkit-animation: rainbow 28s ease infinite;
-  -z-animation: rainbow 28s ease infinite;
-  -o-animation: rainbow 28s ease infinite;
-    animation: rainbow 28s ease infinite;}
-  
-  @-webkit-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @-moz-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @-o-keyframes rainbow {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @keyframes rainbow { 
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }

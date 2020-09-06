@@ -45,7 +45,7 @@ html, body {
 }
 
 body {
-  background: #416475;
+  background: #416475 !important;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   line-height: 1.3;

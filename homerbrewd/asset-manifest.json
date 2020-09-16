@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/rant/static/css/main.194b864e.chunk.css",
-    "main.js": "/rant/static/js/main.ea4bcf73.chunk.js",
-    "main.js.map": "/rant/static/js/main.ea4bcf73.chunk.js.map",
-    "runtime-main.js": "/rant/static/js/runtime-main.d7461472.js",
-    "runtime-main.js.map": "/rant/static/js/runtime-main.d7461472.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/rant/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.a8882e55.chunk.js": "/rant/static/js/2.a8882e55.chunk.js",
-    "static/js/2.a8882e55.chunk.js.map": "/rant/static/js/2.a8882e55.chunk.js.map",
-    "index.html": "/rant/index.html",
-    "precache-manifest.60e5ff7f4a571e854825dfea6276712c.js": "/rant/precache-manifest.60e5ff7f4a571e854825dfea6276712c.js",
-    "service-worker.js": "/rant/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/rant/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.194b864e.chunk.css.map": "/rant/static/css/main.194b864e.chunk.css.map",
-    "static/js/2.a8882e55.chunk.js.LICENSE.txt": "/rant/static/js/2.a8882e55.chunk.js.LICENSE.txt"
+    "main.css": "/homebrewd/static/css/main.194b864e.chunk.css",
+    "main.js": "/homebrewd/static/js/main.9cd7dbc2.chunk.js",
+    "main.js.map": "/homebrewd/static/js/main.9cd7dbc2.chunk.js.map",
+    "runtime-main.js": "/homebrewd/static/js/runtime-main.9dacc9dc.js",
+    "runtime-main.js.map": "/homebrewd/static/js/runtime-main.9dacc9dc.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/homebrewd/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.a8882e55.chunk.js": "/homebrewd/static/js/2.a8882e55.chunk.js",
+    "static/js/2.a8882e55.chunk.js.map": "/homebrewd/static/js/2.a8882e55.chunk.js.map",
+    "index.html": "/homebrewd/index.html",
+    "precache-manifest.3ccefb15990fc681e42536c45026541b.js": "/homebrewd/precache-manifest.3ccefb15990fc681e42536c45026541b.js",
+    "service-worker.js": "/homebrewd/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/homebrewd/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.194b864e.chunk.css.map": "/homebrewd/static/css/main.194b864e.chunk.css.map",
+    "static/js/2.a8882e55.chunk.js.LICENSE.txt": "/homebrewd/static/js/2.a8882e55.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7461472.js",
+    "static/js/runtime-main.9dacc9dc.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.a8882e55.chunk.js",
     "static/css/main.194b864e.chunk.css",
-    "static/js/main.ea4bcf73.chunk.js"
+    "static/js/main.9cd7dbc2.chunk.js"
   ]
 }

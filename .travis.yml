@@ -6,7 +6,7 @@ cache:
     - node_modules # Cache the node_modules folder for quicker build times
 script:
   - npm run build # Runs next build
-  - npm run start # Starts build
+  - npm run export # Starts build
 deploy:
   provider: pages # Informs Travis this is a deployment to GitHub Pages
   skip_cleanup: true # Prevents Travis from resetting the working directory made during the build

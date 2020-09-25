@@ -21,7 +21,8 @@ export default function Navbar1() {
           </NavItem>
         </Nav>
         <NavbarText>
-          by <div style={{ color: "goldenrod" }}>Jared Collins</div>
+          by <div style={{ color: "goldenrod" }}>Jared Collins.</div>Made
+          possible with React, Gatsby and Bootstrap.
         </NavbarText>
       </Navbar>
     </>

@@ -50,17 +50,17 @@ a {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #eb4034;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #dedede;
+  background-color: white;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #dedede;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {

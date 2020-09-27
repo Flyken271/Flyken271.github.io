@@ -43,11 +43,13 @@
 .title a {
   color: #eb4034;
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .titleSub a {
   color: #eb4034;
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .title a:hover,
@@ -122,8 +124,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #eb4034;
-  border-color: #eb4034;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .card h3 {

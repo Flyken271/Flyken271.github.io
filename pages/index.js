@@ -69,6 +69,12 @@ export default function Home(repos) {
                 );
               })}
             </div>
+
+            <br />
+
+            <h1 className={styles.titleSub}>
+              <a href="mailto:jaredcollins99@gmail.com">Hire Me</a>
+            </h1>
           </main>
 
           <footer className={styles.footer}>

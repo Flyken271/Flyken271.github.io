@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import axios from "axios";
 
 export default function Home(repos) {
-  console.log(repos);
   return (
     <div className={styles.container}>
       <Head>

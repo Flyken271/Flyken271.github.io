@@ -1,7 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import axios from "axios";
+import styled from "styled-components";
+
+const Highlight = styled.span`
+  color: #eb4034;
+`;
 
 export default function Home(repos) {
   return (
@@ -20,29 +24,27 @@ export default function Home(repos) {
         </h1>
         <br />
         <h1 className={styles.titleSub}>
-          <Link href="/about/">
-            <a>About me</a>
+          <Link href="/">
+            <a>Back</a>
           </Link>
         </h1>
 
         <p className={styles.description}>
-          I'm fluent in{" "}
-          <code className={styles.code}>
-            Node.JS, React, CSS, HTML, Javascript, Strapi and Next.JS
-          </code>
+          My programming life started when I was just{" "}
+          <Highlight>twelve</Highlight> years old, where I started with{" "}
+          <Highlight>Visual Basic</Highlight> and{" "}
+          <Highlight>Visual Studio</Highlight>. Programming simple things like
+          <Highlight>file converters</Highlight> and attempting a{" "}
+          <Highlight>chat program</Highlight>, I moved on to try my hand at{" "}
+          <Highlight>Java</Highlight> and{" "}
+          <Highlight>minecraft server plugins</Highlight> for my friends server
+          network. Becoming tired of Minecraft I then shined my light upon{" "}
+          <Highlight>Web Development</Highlight>, it had appealed to me in a way
+          that no other type of programming has before. Web Development had{" "}
+          <Highlight>cloaked</Highlight> me in <Highlight>warmth</Highlight> and
+          <Highlight>comfort</Highlight> for it was a new idea and journey
+          adding to my past.
         </p>
-
-        <div className={styles.grid}>
-          {repos.repos.map((repo, index) => {
-            return (
-              <a key={index} href={repo.html_url} className={styles.card}>
-                <h3>{repo.name} &rarr;</h3>
-                <p>{repo.description}</p>
-                <h5>{repo.full_name}</h5>
-              </a>
-            );
-          })}
-        </div>
       </main>
 
       <footer className={styles.footer}>
@@ -57,17 +59,4 @@ export default function Home(repos) {
       </footer>
     </div>
   );
-}
-
-export async function getStaticProps() {
-  const response = await axios.get(
-    "https://api.github.com/users/Flyken271/repos"
-  );
-  var repos = response.data;
-
-  return {
-    props: {
-      repos,
-    },
-  };
 }

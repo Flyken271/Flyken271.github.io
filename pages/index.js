@@ -28,6 +28,13 @@ const Card = styled.a`
   }
 `;
 
+const Slider = styled.span`
+  &:before {
+    content: "";
+    background-color: ${({ active }) => (active ? "#eb4034" : "#346eeb")};
+  }
+`;
+
 export default function Home(repos) {
   const [active, setActive] = useState(false);
 
@@ -39,9 +46,11 @@ export default function Home(repos) {
             type="checkbox"
             onClick={() => setActive((active) => !active)}
           />
-          <span className="slider round"></span>
-        </label>
 
+          <Slider className="slider round" active={active}>
+            <span></span>
+          </Slider>
+        </label>
         <div className={styles.container}>
           <Head>
             <title>Jared Collins - Portfolio</title>

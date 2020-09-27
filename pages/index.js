@@ -101,7 +101,9 @@ export default function Home(repos) {
             <br />
             <Title active={active}>
               <h1 className={styles.titleSub}>
-                <a href="mailto:jaredcollins99@gmail.com">Hire Me</a>
+                <Link href="/hire/">
+                  <a>Hire Me</a>
+                </Link>
               </h1>
             </Title>
           </main>

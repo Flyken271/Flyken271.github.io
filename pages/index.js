@@ -32,6 +32,7 @@ export default function Home(repos) {
               <a key={index} href={repo.html_url} className={styles.card}>
                 <h3>{repo.name} &rarr;</h3>
                 <p>{repo.description}</p>
+                <h5>{repo.full_name}</h5>
               </a>
             );
           })}

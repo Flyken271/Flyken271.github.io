@@ -7,6 +7,11 @@
   align-items: center;
 }
 
+.themetoggle {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -85,7 +90,6 @@
 }
 
 .code {
-  background: #1d1d1d;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;

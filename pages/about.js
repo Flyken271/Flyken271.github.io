@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import styled from "styled-components";
 
 const Highlight = styled.span`
-  color: #eb4034;
+  color: #346eeb;
 `;
 
 export default function Home(repos) {

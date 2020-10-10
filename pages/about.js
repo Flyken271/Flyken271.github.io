@@ -11,7 +11,6 @@ export default function Home(repos) {
   return (
     <div className={styles.container}>
       <Head>
-        
         <title>Jared Collins - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

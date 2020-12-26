@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import styled from "styled-components";
-import Cheatsheet from "./Cheatsheet";
+import Cheatsheet from "./cheatsheet";
 
 const Highlight = styled.span`
   color: #346eeb;

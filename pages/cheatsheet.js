@@ -8,7 +8,7 @@ export default function Cheatsheet(repos) {
         <title>Cheatsheet</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-	  <embed src="CSS Selector Cheat Sheet - Dark.pdf" />
+	  <embed src="CSS.pdf" />
     </div>
   );
 }

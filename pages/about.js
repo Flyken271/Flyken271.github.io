@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import styled from "styled-components";
+import Cheatsheet from "./Cheatsheet";
 
 const Highlight = styled.span`
   color: #346eeb;
@@ -45,6 +46,8 @@ export default function Home(repos) {
           <Highlight>comfort</Highlight> for it was a new idea and journey
           adding to my past.
         </p>
+		<hr />
+		<Cheatsheet />
       </main>
 
       <footer className={styles.footer}>
